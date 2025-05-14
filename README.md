@@ -47,8 +47,8 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 ---
 
 ## 📊 GitHub Stats
-![Vipransh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
+![Vipransh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&theme=radical)
 
 ---
 
