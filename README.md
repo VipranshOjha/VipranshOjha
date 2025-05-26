@@ -16,8 +16,8 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 ---
 
 ## 💻 Tech Stack
-- **Languages**: Python, C++, Java, Swift, HTML, CSS
-- **Frameworks & Libraries**: TensorFlow, PyTorch, Scikit-learn, OpenCV, MediaPipe, SpringBoot, Flask/Django
+- **Languages**: Python, C++, Java, Swift, HTML, CSS, JavaScript
+- **Frameworks & Libraries**: TensorFlow, PyTorch, Scikit-learn, OpenCV, MediaPipe, SpringBoot, Flask
 - **Tools & Platforms**: Flutter, Unity, PyMOL, OpenGL, Tkinter
 - **Skills**: UI/UX Design, Research Paper Writing, Statistical Analysis, Team Collaboration
 
