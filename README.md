@@ -28,21 +28,21 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 > A real-time multilingual speech translation system integrating speech recognition, neural translation, and text-to-speech synthesis.
 **Tech Used:** Python, OpenAI Whisper, Google Speech-to-Text API, Neural Machine Translation, Tacotron
 
-### 🔗 SMS Link Verifier App
-> An Android app that scans SMS messages to detect and verify URLs for potential phishing threats.
-**Tech Used:** Java, SpringBoot, Gradle, VirusTotal API
+### 🛡️ HerShield
+> A women’s safety application offering real-time tracking, location-based alerts, emergency contacts, and route sharing.
+**Tech Used:** React, Native, Firebase
 
 ### 🖱️ Hand Gesture-Controlled Mouse
 > A system that enables users to control a computer mouse using hand gestures.
 **Tech Used:** Python, OpenCV, MediaPipe, PyAutoGUI
 
-### 🕹️ Flappy Bird AI Simulator
-> A self-learning AI that plays Flappy Bird using Neuroevolution.
+### 🕹️ Flappy Bird NEAT AI
+>An AI agent learns to play Flappy Bird using NeuroEvolution of Augmenting Topologies (NEAT). Includes visualizations of the evolving neural networks.
 **Tech Used:** Python, Pygame, NEAT, Matplotlib, Multithreading
 
-### 🏷️ Auction Platform
-> A web-based auction site where users can list, bid, and sell items.
-**Tech Used:** Python (Flask/Django), HTML, CSS, JavaScript, SQL, SQLite
+### 🔎 Discover Places
+> A full-stack web app that helps users explore and manage travel destinations with smart recommendations and admin control.
+**Tech Used:** Python (Flask), HTML, CSS, JavaScript, PostgreSQL.
 
 ---
 
