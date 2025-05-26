@@ -7,7 +7,7 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 ---
 
 ## 🔥 About Me
-- 🎓 **Pursuing B.Tech in Computer Science (AI & ML Specialization)** at VIT Bhopal University (Currently in 3rd Semester)
+- 🎓 **Pursuing B.Tech in Computer Science (with specialization AI & ML)** at VIT Bhopal University (Currently in 3rd Year)
 - 🛠 **Building projects** in AI, Machine Learning, NLP, and App Development
 - 📄 **Published Research Enthusiast** with experience in scientific analysis
 - 💡 **Always learning** and exploring new technologies
