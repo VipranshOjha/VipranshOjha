@@ -26,23 +26,23 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 ## 📌 Featured Projects
 ### 🎙️ Speech-to-Speech Translation System *(Group Project)*
 > A real-time multilingual speech translation system integrating speech recognition, neural translation, and text-to-speech synthesis.
-**Tech Used:** Python, OpenAI Whisper, Google Speech-to-Text API, Neural Machine Translation, Tacotron
+>**Tech Used:** Python, OpenAI Whisper, Google Speech-to-Text API, Neural Machine Translation, Tacotron
 
 ### 🛡️ HerShield
 > A women’s safety application offering real-time tracking, location-based alerts, emergency contacts, and route sharing.
-**Tech Used:** React, Native, Firebase
+>**Tech Used:** React, Native, Firebase
 
 ### 🖱️ Hand Gesture-Controlled Mouse
 > A system that enables users to control a computer mouse using hand gestures.
-**Tech Used:** Python, OpenCV, MediaPipe, PyAutoGUI
+>**Tech Used:** Python, OpenCV, MediaPipe, PyAutoGUI
 
 ### 🕹️ Flappy Bird NEAT AI
 >An AI agent learns to play Flappy Bird using NeuroEvolution of Augmenting Topologies (NEAT). Includes visualizations of the evolving neural networks.
-**Tech Used:** Python, Pygame, NEAT, Matplotlib, Multithreading
+>**Tech Used:** Python, Pygame, NEAT, Matplotlib, Multithreading
 
 ### 🔎 Discover Places
 > A full-stack web app that helps users explore and manage travel destinations with smart recommendations and admin control.
-**Tech Used:** Python (Flask), HTML, CSS, JavaScript, PostgreSQL.
+>**Tech Used:** Python (Flask), HTML, CSS, JavaScript, PostgreSQL.
 
 ---
 
