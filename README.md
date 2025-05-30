@@ -24,9 +24,13 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 ---
 
 ## 📌 Featured Projects
-### 🎙️ Speech-to-Speech Translation System *(Group Project)*
+### 🎙️ SpeechSync: Speech-to-Speech Translation System *(Group Project)*
 > A real-time multilingual speech translation system integrating speech recognition, neural translation, and text-to-speech synthesis.
 >**Tech Used:** Python, OpenAI Whisper, Google Speech-to-Text API, Neural Machine Translation, Tacotron
+
+### 📊 FinRisk: Credit Risk Analysis System *(Group Project)*
+> A data-driven credit risk analysis system that utilizes Power BI dashboards to visualize loan patterns, borrower demographics, and risk indicators.
+> **Tech Used:** Power BI, Python, Jupyter Notebook, Pandas, Matplotlib
 
 ### 🔎 Discover Places
 > A full-stack web app that helps users explore and manage travel destinations with smart recommendations and admin control.
