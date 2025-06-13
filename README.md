@@ -30,14 +30,14 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 
 ### 📊 FinRisk: Credit Risk Analysis System *(Group Project)*
 > A data-driven credit risk analysis system that utilizes Power BI dashboards to visualize loan patterns, borrower demographics, and risk indicators.
-> **Tech Used:** Power BI, Python, Jupyter Notebook, Pandas, Matplotlib
+> **Tech Used:** Python, Jupyter Notebook, Pandas, Matplotlib, Power BI
 
 ### 🔎 Discover Places
 > A full-stack web app that helps users explore and manage travel destinations with smart recommendations and admin control.
 >**Tech Used:** Python (Flask), HTML, CSS, JavaScript, PostgreSQL.
 
 ### 🖱️ Hand Gesture-Controlled Mouse
-> A system that enables users to control a computer mouse using hand gestures.
+> A system that encorporates computer vision which enables users to control a computer mouse using hand gestures.
 >**Tech Used:** Python, OpenCV, MediaPipe, PyAutoGUI
 
 ### 🕹️ Flappy Bird NEAT AI
