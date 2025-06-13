@@ -37,7 +37,7 @@ I'm passionate about Artificial Intelligence, Machine Learning, and Software Dev
 >**Tech Used:** Python (Flask), HTML, CSS, JavaScript, PostgreSQL.
 
 ### 🖱️ Hand Gesture-Controlled Mouse
-> A system that encorporates computer vision which enables users to control a computer mouse using hand gestures.
+> A system that encorporates Computer Vision which enables users to control a computer mouse using hand gestures.
 >**Tech Used:** Python, OpenCV, MediaPipe, PyAutoGUI
 
 ### 🕹️ Flappy Bird NEAT AI
