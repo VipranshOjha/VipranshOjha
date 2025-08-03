@@ -73,6 +73,8 @@ I'm deeply passionate about crafting intelligent systems, solving real-world pro
 
 ![Vipransh's GitHub stats](https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&theme=radical)
+[![Trophy](https://github-profile-trophy.vercel.app/?username=VipranshOjha&theme=radical&no-frame=true&no-bg=true&title=Commits,Repositories,Followers,Experience)](https://github.com/ryo-ma/github-profile-trophy)
+![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
