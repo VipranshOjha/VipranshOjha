@@ -1,5 +1,3 @@
-<img src="https://avatars.githubusercontent.com/u/your_github_id" align="right" height="120"/>
-
 # 👋 Hi, I'm Vipransh Ojha!
 
 🚀 **AI/ML Enthusiast | Full-Stack Developer | Research Explorer**
