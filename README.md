@@ -73,6 +73,8 @@ I'm deeply passionate about crafting intelligent systems, solving real-world pro
 
 ## 📊 GitHub Stats
 
+<div align="center">
+
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=VipranshOjha&theme=radical&no-frame=true&no-bg=true&title=Commits,Repositories,Followers,Experience&column=4&margin-w=30&margin-h=30&height=150" alt="GitHub Trophies"/>
   </a>
@@ -87,8 +89,6 @@ I'm deeply passionate about crafting intelligent systems, solving real-world pro
     </td>
   </tr>
 </table>
-
-<div align="center">
 
 </div>
 
