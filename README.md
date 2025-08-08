@@ -94,7 +94,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
   
 <p>
   <a href="https://leetcode.com/name/">
-    <img src="https://leetcard.jacoblin.cool/DSinghania?theme=dark&font=Overlock%20SC&ext=activity" width="400"/>
+    <img src="https://leetcard.jacoblin.cool/Vipransh-Ojha?theme=dark&font=Overlock%20SC&ext=activity" width="400"/>
   </a>
 </p>
 
