@@ -88,6 +88,18 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ---
 
+## 📊Code Profiles 
+
+<div align="center">
+  
+<p>
+  <a href="https://leetcode.com/name/">
+    <img src="https://leetcard.jacoblin.cool/DSinghania?theme=dark&font=Overlock%20SC&ext=activity" width="400"/>
+  </a>
+</p>
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -107,9 +119,10 @@ I'm passionate about developing intelligent systems that solve real-world proble
   </tr>
 </table>
 
-</div>
-
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg)
+
+
+</div>
 
 ---
 
