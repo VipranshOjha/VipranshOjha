@@ -98,6 +98,8 @@ I'm passionate about developing intelligent systems that solve real-world proble
   </a>
 </p>
 
+</div>
+
 ---
 
 ## 📊 GitHub Analytics
