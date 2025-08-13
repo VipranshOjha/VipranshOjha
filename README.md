@@ -142,7 +142,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 - 📧 **Email:** ojhavipransh@gmail.com  
 - 💼 **LinkedIn:** [vipransh-ojha](https://www.linkedin.com/in/vipransh-ojha/)  
-- 🌐 **Portfolio:** [vipranshojha.github.io/MyPortfilio](https://vipranshojha.github.io/MyPortfilio/)
+- 🌐 **Portfolio:** [https://vipranshojha.github.io/MyPortfilio/](https://vipranshojha.github.io/VipranshOjha/)
 
 ---
 
