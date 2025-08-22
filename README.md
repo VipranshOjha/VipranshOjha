@@ -92,7 +92,8 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 | LeetCode | HackerRank |
 |----------|------------|
-| <a href="https://leetcode.com/Vipransh-Ojha/"><img src="https://leetcard.jacoblin.cool/Vipransh-Ojha?theme=dark&font=Overlock%20SC&ext=activity" width="400"/></a> | <a href="https://www.hackerrank.com/profile/ojhavipransh"><img src="https://hackerrank-badges.vercel.app/api/ojhavipransh?theme=dark&border_color=white&text_color=white" width="400"/></a> |
+| <a href="https://leetcode.com/Vipransh-Ojha/"><img src="https://leetcard.jacoblin.cool/Vipransh-Ojha?theme=dark&font=Overlock%20SC&ext=activity" width="400"/></a> | [![HackerRank Badges](https://hackerrank-badges.vercel.app/ojhavipransh)](https://www.hackerrank.com/profile/ojhavipransh) |
+
 
 ---
 
