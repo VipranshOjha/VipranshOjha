@@ -18,18 +18,28 @@ I'm passionate about developing intelligent systems that solve real-world proble
 ## 🧰 Tech Arsenal
 
 ### **AI/ML & Deep Learning**
-- **Frameworks:** PyTorch, TensorFlow, Scikit-learn, OpenCV, MediaPipe
-- **Architectures:** Siamese Networks, CNNs, EfficientNet, NEAT NeuroEvolution
-- **Specializations:** Computer Vision, NLP, Similarity Learning, Neural Architecture Design
+**Frameworks:**  `PyTorch` • `TensorFlow` • `Scikit-learn` • `OpenCV` • `MediaPipe`
+
+**Architectures:**  `Siamese Networks` • `CNNs` • `EfficientNet` • `NEAT NeuroEvolution`
+
+**Specializations:**  `Computer Vision` • `NLP` • `Similarity Learning` • `Neural Architecture Design`
+
+---
 
 ### **Software Development**
-- **Languages:** Python, C++, Java, JavaScript, Swift, HTML/CSS
-- **Backend:** Flask, Spring Boot, Firebase
-- **Mobile:** React Native, Flutter
-- **Tools:** Power BI, Unity, OpenGL, PyMOL, Git
+**Languages:**  `Python` • `C++` • `Java` • `JavaScript` • `Swift` • `HTML/CSS`
+
+**Backend:**  `Flask` • `Spring Boot` • `Firebase`
+
+**Mobile:**  `React Native` • `Flutter`
+
+**Tools:**  `Power BI` • `Unity` • `OpenGL` • `PyMOL` • `Git`
+
+---
 
 ### **Research & Analysis**
-- Academic Writing, Statistical Analysis, Experimental Design, Performance Evaluation
+`Academic Writing` • `Statistical Analysis` • `Experimental Design` • `Performance Evaluation`
+
 
 ---
 
