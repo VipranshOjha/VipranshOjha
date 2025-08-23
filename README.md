@@ -114,9 +114,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <div align="center">
 
-  <p>
-    <img src="https://github-profile-trophy.vercel.app/?username=VipranshOjha&theme=radical&no-frame=true&no-bg=true&title=Commits,Repositories,Followers,Experience&column=4&margin-w=30&margin-h=30" alt="GitHub Trophies"/>
-  </p>
+![trophy](https://github-profile-trophy.vercel.app/?username=vipranshojha&theme=radical&no-frame=true&no-bg=true&column=4)
 
   <table>
     <tr>
