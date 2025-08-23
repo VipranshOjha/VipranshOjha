@@ -114,23 +114,25 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <div align="center">
 
-![trophy](https://github-profile-trophy.vercel.app/?username=vipranshojha&theme=radical&no-frame=true&no-bg=true&column=4)
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=VipranshOjha&theme=radical&no-frame=true&no-bg=true&title=Commits,Repositories,Followers,Experience&column=4&margin-w=30&margin-h=30&height=150" alt="GitHub Trophies"/>
+  </a>
 
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&theme=radical" alt="Vipransh's GitHub stats" height="180"/>
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&theme=radical" alt="Top Langs" height="180"/>
-      </td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&theme=radical" alt="Vipransh's GitHub stats" height="180"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&theme=radical" alt="Top Langs" height="180"/>
+    </td>
+  </tr>
+</table>
 
-  ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg)
+
 
 </div>
-
 
 ---
 
