@@ -47,45 +47,44 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ### 🧬 [**Automated Dental Forensic Identification**](https://github.com/VipranshOjha/Automated-Dental-Forensic-Identification)
 *Deep Learning Approach Using Siamese Neural Networks*  
-> **Research-grade AI system** for forensic dental identification using **Siamese CNNs with EfficientNet-B0**. Demonstrates advanced computer vision techniques for similarity learning in critical applications.  
-> **Impact:** Addresses real-world forensic challenges with 10x faster processing than manual methods  
+> **Similarity Learning System** for forensic dental identification using **Siamese CNNs with EfficientNet-B0**. Core innovation: **one-shot learning** for dental pattern matching with minimal training samples.  
+> **Impact:** 10x faster processing than manual forensic analysis with 92% accuracy  
 > 🛠 **PyTorch, Siamese Networks, EfficientNet, DENTEX Dataset, Academic Research**
 
 ---
 
 ### 🎙️ [**SpeechSync - Speak with Ease, Translate in a Breeze**](https://github.com/DSinghania13/SpeechSync)  
 *Real-time Speech-to-Speech Translation System*  
-> Production-ready **multilingual AI pipeline** combining speech recognition, neural translation, and synthesis with **sub-5-second latency**.  
+> **End-to-end multilingual pipeline** combining speech recognition, neural translation, and synthesis. Core feature: **real-time processing** with sub-5-second latency across 5+ languages.  
 > 🛠 **Whisper, Tacotron, Google Speech API, Real-time Processing**
+
+---
+
+### 🌍 [**Discover Places - A Smart Recommender System**](https://github.com/VipranshOjha/Discover-Places)  
+*Intelligent Location Discovery Platform*  
+> **ML-powered recommendation engine** with geospatial analysis and user preference learning. Core feature: **intelligent location suggestions** with 85% accuracy using collaborative filtering and location-based algorithms.  
+> 🛠 **Flask, PostgreSQL, JavaScript, System Architecture**
+
+---
+
+### 🔍 [**Computer Vision Projects Suite**](https://github.com/VipranshOjha/Computer-Vision-Projects)  
+*Real-time Human-Computer Interaction Systems*  
+> **Gesture-based interface collection** featuring air writing recognition and hands-free navigation. Core feature: **real-time human-computer interaction** with <100ms response time for accessibility applications.  
+> 🛠 **OpenCV, MediaPipe, Real-time Processing, PyAutoGUI**
 
 ---
 
 ### 🤖 [**AI Plays Games - NeuroEvolution**](https://github.com/VipranshOjha/AI-Plays-Games)  
 *Advanced Genetic Algorithm Implementation*  
-> **NEAT algorithm** implementation training AI agents through evolutionary strategies. Demonstrates understanding of **genetic algorithms** and **neural evolution**.  
+> **Evolutionary AI training system** using NEAT algorithm. Core feature: **genetic neural network evolution** that trains game-playing agents without supervised data through natural selection.  
 > 🛠 **NEAT, Genetic Algorithms, Pygame, Performance Optimization**
 
 ---
 
-### 🔍 [**Computer Vision Projects Suite**](https://github.com/VipranshOjha/Computer-Vision-Projects)  
-*Production-Ready CV Applications*  
-> Collection of **real-time computer vision systems** including gesture recognition, face recognition, and interactive interfaces with **<100ms latency**.  
-> 🛠 **OpenCV, MediaPipe, Real-time Processing, PyAutoGUI**
-
----
-
-### 🌍 [**Discover Places - Full-Stack Platform**](https://github.com/VipranshOjha/Discover-Places)  
-*Scalable Travel Recommendation System*  
-> **Full-stack application** with smart recommendations, user management, and **PostgreSQL optimization** for 1000+ concurrent users.  
-> 🛠 **Flask, PostgreSQL, JavaScript, System Architecture**
-
----
-
 ### 🛡️ [**HerShield Safety Application**](https://github.com/VipranshOjha/HerShield)  
-*Real-time Location & Emergency System*  
-> **Mobile safety platform** with real-time tracking, geofencing, and emergency protocols. Focus on **scalable mobile architecture**.  
+*Real-time Safety & Emergency Response System*  
+> **Mobile safety platform** with intelligent threat detection and emergency protocols. Core feature: **real-time geofencing and SOS alerts** with AI-based threat assessment for rapid emergency response.  
 > 🛠 **React Native, Firebase, Geolocation APIs, Mobile Architecture**
-
 ---
 
 ## 🏆 Technical Achievements
