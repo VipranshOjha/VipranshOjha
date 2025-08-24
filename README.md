@@ -53,7 +53,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ---
 
-### 🎙️ [**SpeechSync - Multilingual AI Pipeline**](https://github.com/DSinghania13/SpeechSync)  
+### 🎙️ [**SpeechSync - Speak with Ease, Translate in a Breeze**](https://github.com/DSinghania13/SpeechSync)  
 *Real-time Speech-to-Speech Translation System*  
 > Production-ready **multilingual AI pipeline** combining speech recognition, neural translation, and synthesis with **sub-5-second latency**.  
 > 🛠 **Whisper, Tacotron, Google Speech API, Real-time Processing**
@@ -67,9 +67,9 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ---
 
-### 🔍 [**Computer Vision Systems**](https://github.com/VipranshOjha/Computer-Vision-Projects)  
+### 🔍 [**Computer Vision Projects Suite**](https://github.com/VipranshOjha/Computer-Vision-Projects)  
 *Production-Ready CV Applications*  
-> Collection of **real-time computer vision systems** including gesture recognition, face detection, and interactive interfaces with **<100ms latency**.  
+> Collection of **real-time computer vision systems** including gesture recognition, face recognition, and interactive interfaces with **<100ms latency**.  
 > 🛠 **OpenCV, MediaPipe, Real-time Processing, PyAutoGUI**
 
 ---
