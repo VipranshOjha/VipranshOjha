@@ -29,7 +29,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 ### **Software Development**
 **Languages:**  `Python` • `C++` • `Java` • `JavaScript` • `Swift` • `HTML/CSS`
 
-**Backend:**  `Flask` • `Spring Boot` • `Firebase`
+**Backend:**  `Flask` • `Spring Boot` 
 
 **Mobile:**  `React Native` • `Flutter`
 
