@@ -102,8 +102,8 @@ I'm passionate about developing intelligent systems that solve real-world proble
 <div align="center">
 
 | LeetCode | HackerRank |
-|----------|------------|
-| <a href="https://leetcode.com/Vipransh-Ojha/"><img src="https://leetcard.jacoblin.cool/Vipransh-Ojha?theme=dark&font=Overlock%20SC&ext=activity" width="400"/></a> | [![HackerRank Badges](https://hackerrank-badges.vercel.app/ojhavipransh)](https://www.hackerrank.com/profile/ojhavipransh) |
+|---|---|
+| <a href="https://leetcode.com/Vipransh-Ojha/"><img src="https://leetcard.jacoblin.cool/Vipransh-Ojha?theme=dark&font=Overlock%20SC&ext=activity" width="400"/></a> | [![HackerRank Badges](https://hackerrank-badges.vercel.app/ojhavipransh?theme=dark)](https://www.hackerrank.com/profile/ojhavipransh) |
 
 </div>
 
@@ -115,11 +115,16 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <table>
   <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&theme=radical" alt="Vipransh's GitHub stats" height="180"/>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" alt="Vipransh's GitHub stats" height="180"/>
     </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&theme=radical" alt="Top Langs" height="180"/>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF" alt="Top Langs" height="180"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=VipranshOjha&theme=react-dark&hide_border=true" alt="GitHub Contribution Graph"/>
     </td>
   </tr>
 </table>
