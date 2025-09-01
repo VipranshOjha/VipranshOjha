@@ -129,8 +129,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
   </tr>
 </table>
 
-![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg)
-
+![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only?color=00FFFF)
 
 </div>
 
