@@ -113,7 +113,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <div align="center">
 
-<table>
+  <table>
   <tr>
     <td align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" alt="Vipransh's GitHub stats" height="180"/>
@@ -128,7 +128,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
     </td>
   </tr>
 </table>
-
+  
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
