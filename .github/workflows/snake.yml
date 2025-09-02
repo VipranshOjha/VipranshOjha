@@ -1,25 +1,31 @@
-name: Snake generator
+name: Generate Snake
 
 on:
-  push:
-  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
-      - name: Create snake
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate snake game
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: VipranshOjha
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#007FFF
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#007FFF
+            dist/github-contribution-grid-snake.svg?color_snake=#007FFF&color_dots=#0D1117,#161B22,#21262D,#39D353,#26A641,#006D32,#0E4429
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#007FFF&color_dots=#0D1117,#161B22,#21262D,#39D353,#26A641,#006D32,#0E4429
 
-      - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
