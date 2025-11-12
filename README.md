@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Vipransh Ojha!
 
-🚀 **AI/ML Engineer | Computer Vision Researcher | Full-Stack Developer**
+🚀 **AI/ML Engineer | Researcher | Full-Stack Developer**
 
 I'm passionate about developing intelligent systems that solve real-world problems, with a focus on **deep learning**, **computer vision**, and **research-driven AI applications**. From building production-ready ML systems to conducting cutting-edge research, I love transforming complex ideas into impactful technological solutions.
 
