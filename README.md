@@ -67,17 +67,17 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ---
 
-### 🔍 [**Computer Vision Projects Suite**](https://github.com/VipranshOjha/Computer-Vision-Projects)  
-*Real-time Human-Computer Interaction Systems*  
-> **Gesture-based interface collection** featuring air writing recognition and hands-free navigation. Core feature: **real-time human-computer interaction** with <100ms response time for accessibility applications.  
-> 🛠 **OpenCV, MediaPipe, Real-time Processing, PyAutoGUI**
-
----
-
 ### 🤖 [**AI Plays Games - NeuroEvolution**](https://github.com/VipranshOjha/AI-Plays-Games)  
 *Advanced Genetic Algorithm Implementation*  
 > **Evolutionary AI training system** using NEAT algorithm. Core feature: **genetic neural network evolution** that trains game-playing agents without supervised data through natural selection.  
 > 🛠 **NEAT, Genetic Algorithms, Pygame, Performance Optimization**
+
+---
+
+### 🔍 [**Computer Vision Projects Suite**](https://github.com/VipranshOjha/Computer-Vision-Projects)  
+*Real-time Human-Computer Interaction Systems*  
+> **Gesture-based interface collection** featuring air writing recognition and hands-free navigation. Core feature: **real-time human-computer interaction** with <100ms response time for accessibility applications.  
+> 🛠 **OpenCV, MediaPipe, Real-time Processing, PyAutoGUI**
 
 ---
 
