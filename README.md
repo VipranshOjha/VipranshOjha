@@ -150,7 +150,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 - 📧 **Email:** ojhavipransh@gmail.com  
 - 💼 **LinkedIn:** [vipransh-ojha](https://www.linkedin.com/in/vipransh-ojha/)  
-- 🌐 **Portfolio:** [https://portfolio-snowy-three-18.vercel.app/](https://my-portfolio-hazel-gamma-10.vercel.app/)
+- 🌐 **Portfolio:** [https://my-portfolio-hazel-gamma-10.vercel.app/](https://my-portfolio-hazel-gamma-10.vercel.app/)
 
 ---
 
