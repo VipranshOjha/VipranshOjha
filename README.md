@@ -116,10 +116,10 @@ I'm passionate about developing intelligent systems that solve real-world proble
   <table>
   <tr>
     <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" alt="Vipransh's GitHub stats" height="180"/>
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" height="180"/>
     </td>
     <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF" alt="Top Langs" height="180"/>
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF" height="180"/>
     </td>
   </tr>
   <tr>
