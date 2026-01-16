@@ -67,6 +67,13 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ---
 
+### ⚖️ [**Dikastirio**](https://github.com/VipranshOjha/Dikastirio)
+*The Agent-Driven VR Courtroom*
+> **Immersive justice platform** orchestrating remote hearings in VR. Core feature: **AI Agent "Themis"** that autonomously manages court flow, transcription, and interactive evidence display to enforce procedural decorum.
+> 🛠 **Unity, Inya.ai, Google Gemma, Gnani.ai, VR Architecture**
+
+---
+
 ### 🤖 [**AI Plays Games - NeuroEvolution**](https://github.com/VipranshOjha/AI-Plays-Games)  
 *Advanced Genetic Algorithm Implementation*  
 > **Evolutionary AI training system** using NEAT algorithm. Core feature: **genetic neural network evolution** that trains game-playing agents without supervised data through natural selection.  
@@ -79,12 +86,6 @@ I'm passionate about developing intelligent systems that solve real-world proble
 > **Gesture-based interface collection** featuring air writing recognition and hands-free navigation. Core feature: **real-time human-computer interaction** with <100ms response time for accessibility applications.  
 > 🛠 **OpenCV, MediaPipe, Real-time Processing, PyAutoGUI**
 
----
-
-### 🛡️ [**HerShield Safety Application**](https://github.com/VipranshOjha/HerShield)  
-*Real-time Safety & Emergency Response System*  
-> **Mobile safety platform** with intelligent threat detection and emergency protocols. Core feature: **real-time geofencing and SOS alerts** with AI-based threat assessment for rapid emergency response.  
-> 🛠 **React Native, Firebase, Geolocation APIs, Mobile Architecture**
 ---
 
 ## 🏆 Technical Achievements
