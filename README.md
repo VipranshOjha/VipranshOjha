@@ -88,16 +88,6 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 ---
 
-## 🏆 Technical Achievements
-
-- 🔬 **Research Implementation**: Developed academic-grade AI system for forensic applications
-- ⚡ **Performance Optimization**: Achieved <100ms latency in real-time CV systems  
-- 📊 **Data Processing**: Handled 1000+ concurrent users in production applications
-- 🧠 **Algorithm Design**: Implemented advanced neural architectures (Siamese, NEAT)
-- 📱 **Full-Stack Proficiency**: End-to-end development from ML models to mobile apps
-
----
-
 ## 📊 Code Profiles
 
 <div align="center">
