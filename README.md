@@ -104,22 +104,26 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <div align="center">
 
-  <table>
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" height="180"/>
-    </td>
-    <td align="center">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF" height="180"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=VipranshOjha&theme=react-dark&hide_border=true" alt="GitHub Contribution Graph"/>
-    </td>
-  </tr>
+<table>
+<tr>
+<td align="center">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" height="180"/>
+</td>
+<td align="center">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=VipranshOjha&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF" height="180"/>
+</td>
+</tr>
+
+<tr>
+  <td colspan="2" align="center">
+    <a href="https://your-future-skyline-site.vercel.app">
+      <img src="./assets/github-skyline.png" alt="GitHub Skyline" width="100%"/>
+    </a>
+  </td>
+</tr>
+
 </table>
-  
+
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
