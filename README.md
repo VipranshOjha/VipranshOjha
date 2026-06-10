@@ -114,13 +114,13 @@ I'm passionate about developing intelligent systems that solve real-world proble
 </td>
 </tr>
 
-<tr>
-  <td colspan="2" align="center">
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-  </td>
-</tr>
-
 </table>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-gitblock.svg#gh-light-mode-only" width="85%" />
+  <img src="./profile-3d-contrib/profile-night-view.svg#gh-dark-mode-only" width="85%" />
+</p>
+
 
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![snake gif](https://github.com/VipranshOjha/VipranshOjha/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
