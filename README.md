@@ -116,8 +116,7 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <tr>
   <td colspan="2" align="center">
-    <h3>🏙️ GitHub Skyline (2023–2026)</h3>
-    <img src="./assets/github-skyline.png" alt="GitHub Skyline" width="100%"/>
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
   </td>
 </tr>
 
