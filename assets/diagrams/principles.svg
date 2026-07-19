@@ -1,0 +1,185 @@
+<svg
+  width="900"
+  height="480"
+  viewBox="0 0 900 480"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <!-- Subtle glow for center node -->
+    <filter id="gc" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow for outer nodes -->
+    <filter id="gn" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow for title -->
+    <filter id="gt" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Ambient radial glow at diagram center -->
+    <radialGradient id="bgr" cx="50%" cy="58%" r="42%">
+      <stop offset="0%"   stop-color="#4C1D95" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#4C1D95" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Transparent base + ambient glow -->
+  <rect width="900" height="480" fill="url(#bgr)"/>
+
+  <!--
+    Geometry:
+      Center:  CX=450  CY=276
+      Orbit radius:  R=158
+
+      Node positions (exact, R=158):
+        0: Understanding        -90°  → x=450, y=118
+        1: Systems              -18°  → x=450+158*cos(-18°)=450+150.3=600.3, y=276+158*sin(-18°)=276-48.9=227.1
+        2: Software for People   54°  → x=450+158*cos(54°)=450+92.9=542.9, y=276+158*sin(54°)=276+127.9=403.9
+        3: Craftsmanship        126°  → x=450+158*cos(126°)=450-92.9=357.1, y=276+158*sin(126°)=276+127.9=403.9
+        4: End-to-End Ownership 198°  → x=450+158*cos(198°)=450-150.3=299.7, y=276+158*sin(198°)=276-48.9=227.1
+  -->
+
+  <!-- ── Outer orbit ring ────────────────────────────────────── -->
+  <circle cx="450" cy="276" r="158"
+    stroke="#8B5CF6" stroke-opacity="0.09" stroke-width="0.5"
+    stroke-dasharray="4 10"/>
+
+  <!-- ── Pentagon ring ──────────────────────────────────────── -->
+  <!-- Glow -->
+  <line x1="450"   y1="118"   x2="600.3" y2="227.1" stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="7"/>
+  <line x1="600.3" y1="227.1" x2="542.9" y2="403.9" stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="7"/>
+  <line x1="542.9" y1="403.9" x2="357.1" y2="403.9" stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="7"/>
+  <line x1="357.1" y1="403.9" x2="299.7" y2="227.1" stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="7"/>
+  <line x1="299.7" y1="227.1" x2="450"   y2="118"   stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="7"/>
+  <!-- Crisp -->
+  <line x1="450"   y1="118"   x2="600.3" y2="227.1" stroke="#8B5CF6" stroke-opacity="0.22" stroke-width="0.65"/>
+  <line x1="600.3" y1="227.1" x2="542.9" y2="403.9" stroke="#8B5CF6" stroke-opacity="0.22" stroke-width="0.65"/>
+  <line x1="542.9" y1="403.9" x2="357.1" y2="403.9" stroke="#8B5CF6" stroke-opacity="0.22" stroke-width="0.65"/>
+  <line x1="357.1" y1="403.9" x2="299.7" y2="227.1" stroke="#8B5CF6" stroke-opacity="0.22" stroke-width="0.65"/>
+  <line x1="299.7" y1="227.1" x2="450"   y2="118"   stroke="#8B5CF6" stroke-opacity="0.22" stroke-width="0.65"/>
+
+  <!-- ── Radial spokes ──────────────────────────────────────── -->
+  <!-- Glow -->
+  <line x1="450" y1="276" x2="450"   y2="118"   stroke="#A855F7" stroke-opacity="0.09" stroke-width="8"/>
+  <line x1="450" y1="276" x2="600.3" y2="227.1" stroke="#A855F7" stroke-opacity="0.09" stroke-width="8"/>
+  <line x1="450" y1="276" x2="542.9" y2="403.9" stroke="#A855F7" stroke-opacity="0.09" stroke-width="8"/>
+  <line x1="450" y1="276" x2="357.1" y2="403.9" stroke="#A855F7" stroke-opacity="0.09" stroke-width="8"/>
+  <line x1="450" y1="276" x2="299.7" y2="227.1" stroke="#A855F7" stroke-opacity="0.09" stroke-width="8"/>
+  <!-- Crisp -->
+  <line x1="450" y1="276" x2="450"   y2="118"   stroke="#A855F7" stroke-opacity="0.45" stroke-width="0.7"/>
+  <line x1="450" y1="276" x2="600.3" y2="227.1" stroke="#A855F7" stroke-opacity="0.45" stroke-width="0.7"/>
+  <line x1="450" y1="276" x2="542.9" y2="403.9" stroke="#A855F7" stroke-opacity="0.45" stroke-width="0.7"/>
+  <line x1="450" y1="276" x2="357.1" y2="403.9" stroke="#A855F7" stroke-opacity="0.45" stroke-width="0.7"/>
+  <line x1="450" y1="276" x2="299.7" y2="227.1" stroke="#A855F7" stroke-opacity="0.45" stroke-width="0.7"/>
+
+  <!-- ── Node: Understanding  (450, 118) ───────────────────── -->
+  <circle cx="450" cy="118" r="24" fill="#A855F7" fill-opacity="0.04" stroke="#A855F7" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="450" cy="118" r="13.5" fill="#0D1117" stroke="#A855F7" stroke-width="1.0" filter="url(#gn)"/>
+  <circle cx="450" cy="118" r="3.2" fill="#D8B4FE"/>
+  <text x="450" y="85"
+    text-anchor="middle" dominant-baseline="middle"
+    fill="#D8B4FE" fill-opacity="0.80" font-size="12.5"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.5">Understanding</text>
+
+  <!-- ── Node: Systems  (600.3, 227.1) ─────────────────────── -->
+  <circle cx="600.3" cy="227.1" r="24" fill="#A855F7" fill-opacity="0.04" stroke="#A855F7" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="600.3" cy="227.1" r="13.5" fill="#0D1117" stroke="#A855F7" stroke-width="1.0" filter="url(#gn)"/>
+  <circle cx="600.3" cy="227.1" r="3.2" fill="#D8B4FE"/>
+  <text x="640" y="227.1"
+    text-anchor="start" dominant-baseline="middle"
+    fill="#D8B4FE" fill-opacity="0.80" font-size="12.5"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.5">Systems</text>
+
+  <!-- ── Node: Software for People  (542.9, 403.9) ─────────── -->
+  <circle cx="542.9" cy="403.9" r="24" fill="#A855F7" fill-opacity="0.04" stroke="#A855F7" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="542.9" cy="403.9" r="13.5" fill="#0D1117" stroke="#A855F7" stroke-width="1.0" filter="url(#gn)"/>
+  <circle cx="542.9" cy="403.9" r="3.2" fill="#D8B4FE"/>
+  <text x="542.9" y="438"
+    text-anchor="middle" dominant-baseline="middle"
+    fill="#D8B4FE" fill-opacity="0.80" font-size="12.5"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.5">Software for People</text>
+
+  <!-- ── Node: Craftsmanship  (357.1, 403.9) ───────────────── -->
+  <circle cx="357.1" cy="403.9" r="24" fill="#A855F7" fill-opacity="0.04" stroke="#A855F7" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="357.1" cy="403.9" r="13.5" fill="#0D1117" stroke="#A855F7" stroke-width="1.0" filter="url(#gn)"/>
+  <circle cx="357.1" cy="403.9" r="3.2" fill="#D8B4FE"/>
+  <text x="357.1" y="438"
+    text-anchor="middle" dominant-baseline="middle"
+    fill="#D8B4FE" fill-opacity="0.80" font-size="12.5"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.5">Craftsmanship</text>
+
+  <!-- ── Node: End-to-End Ownership  (299.7, 227.1) ─────────── -->
+  <circle cx="299.7" cy="227.1" r="24" fill="#A855F7" fill-opacity="0.04" stroke="#A855F7" stroke-opacity="0.06" stroke-width="0.5"/>
+  <circle cx="299.7" cy="227.1" r="13.5" fill="#0D1117" stroke="#A855F7" stroke-width="1.0" filter="url(#gn)"/>
+  <circle cx="299.7" cy="227.1" r="3.2" fill="#D8B4FE"/>
+  <text x="260" y="227.1"
+    text-anchor="end" dominant-baseline="middle"
+    fill="#D8B4FE" fill-opacity="0.80" font-size="12.5"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.5">End-to-End Ownership</text>
+
+  <!-- ── Center node: Curiosity  (450, 276) ────────────────── -->
+  <circle cx="450" cy="276" r="58" fill="#7C3AED" fill-opacity="0.05"/>
+  <circle cx="450" cy="276" r="42"
+    fill="#0D1117"
+    stroke="#A855F7" stroke-width="1.4"
+    filter="url(#gc)"/>
+  <circle cx="450" cy="276" r="34"
+    fill="none"
+    stroke="#A855F7" stroke-opacity="0.15" stroke-width="0.5"/>
+  <text x="450" y="280.5"
+    text-anchor="middle"
+    fill="#E9D5FF"
+    font-size="12"
+    font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="3">CURIOSITY</text>
+
+  <!-- ── Title ─────────────────────────────────────────────── -->
+  <text x="450" y="24"
+    text-anchor="middle"
+    fill="#A855F7"
+    font-size="12.5"
+    font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="5.5"
+    filter="url(#gt)">PRINCIPLES I BUILD BY</text>
+
+  <!-- Thin underline beneath title -->
+  <line x1="380" y1="34" x2="520" y2="34"
+    stroke="#A855F7" stroke-opacity="0.13" stroke-width="0.5"/>
+  <circle cx="380" cy="34" r="1.2" fill="#A855F7" fill-opacity="0.22"/>
+  <circle cx="520" cy="34" r="1.2" fill="#A855F7" fill-opacity="0.22"/>
+
+  <!-- ── Subtitle ──────────────────────────────────────────── -->
+  <text x="450" y="50"
+    text-anchor="middle"
+    fill="#C4B5FD"
+    fill-opacity="0.45"
+    font-size="10.5"
+    font-style="italic"
+    font-weight="300"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.4">Every project begins somewhere inside this space.</text>
+</svg>
