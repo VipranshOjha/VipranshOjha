@@ -1,0 +1,271 @@
+<svg
+  width="900"
+  height="880"
+  viewBox="0 0 900 880"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+
+    <!-- Line gradient: very dim at origin (past), brightens toward TODAY, fades after -->
+    <linearGradient id="lg" x1="0" y1="64" x2="0" y2="880" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#A855F7" stop-opacity="0.04"/>
+      <stop offset="8%"   stop-color="#A855F7" stop-opacity="0.13"/>
+      <stop offset="26%"  stop-color="#A855F7" stop-opacity="0.23"/>
+      <stop offset="44%"  stop-color="#A855F7" stop-opacity="0.34"/>
+      <stop offset="62%"  stop-color="#A855F7" stop-opacity="0.46"/>
+      <stop offset="80%"  stop-color="#A855F7" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Ambient glow behind TODAY node -->
+    <radialGradient id="todaybg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#5B21B6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#5B21B6" stop-opacity="0.0"/>
+    </radialGradient>
+
+    <!-- Subtle glow for regular milestone nodes -->
+    <filter id="gn" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Stronger glow for TODAY node -->
+    <filter id="gtoday" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow for section title -->
+    <filter id="gtitle" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow for TODAY title text -->
+    <filter id="gtoday-text" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Ambient ellipse behind TODAY (drawn first, behind everything) -->
+  <ellipse cx="120" cy="720" rx="150" ry="115" fill="url(#todaybg)"/>
+
+  <!-- Main vertical timeline line -->
+  <line x1="120" y1="64" x2="120" y2="880"
+    stroke="url(#lg)" stroke-width="1.2"/>
+
+  <!-- Origin tick mark at start of line -->
+  <line x1="112" y1="72" x2="128" y2="72"
+    stroke="#A855F7" stroke-opacity="0.20" stroke-width="0.8"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--                     HEADER                      -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <text x="450" y="26"
+    text-anchor="middle"
+    fill="#A855F7"
+    font-size="12.5"
+    font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="5.5"
+    filter="url(#gtitle)">THE JOURNEY</text>
+
+  <!-- Title underline -->
+  <line x1="388" y1="36" x2="512" y2="36"
+    stroke="#A855F7" stroke-opacity="0.14" stroke-width="0.5"/>
+  <circle cx="388" cy="36" r="1.2" fill="#A855F7" fill-opacity="0.24"/>
+  <circle cx="512" cy="36" r="1.2" fill="#A855F7" fill-opacity="0.24"/>
+
+  <!-- Subtitle -->
+  <text x="450" y="52"
+    text-anchor="middle"
+    fill="#C4B5FD"
+    fill-opacity="0.45"
+    font-size="10.5"
+    font-style="italic"
+    font-weight="300"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.4">Every phase brought a different question.</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--          NODE 1 — Curious Explorer  cy=130      -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <!-- Outer ambient halo -->
+  <circle cx="120" cy="130" r="22"
+    fill="#A855F7" fill-opacity="0.04"
+    stroke="#A855F7" stroke-opacity="0.06" stroke-width="0.5"/>
+  <!-- Main ring -->
+  <circle cx="120" cy="130" r="12"
+    fill="#0D1117" stroke="#8B5CF6" stroke-width="1.0"
+    filter="url(#gn)"/>
+  <!-- Inner dot -->
+  <circle cx="120" cy="130" r="3.5" fill="#D8B4FE" fill-opacity="0.85"/>
+
+  <!-- Title — vertically centered with node circle -->
+  <text x="170" y="130"
+    dominant-baseline="middle"
+    fill="#E9D5FF" fill-opacity="0.88"
+    font-size="14" font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">Curious Explorer</text>
+  <!-- Question -->
+  <text x="170" y="152"
+    fill="#C4B5FD" fill-opacity="0.56"
+    font-size="10.5" font-style="italic"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">Can I build this myself?</text>
+  <!-- Lesson -->
+  <text x="170" y="170"
+    fill="#D8B4FE" fill-opacity="0.80"
+    font-size="11"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif">Curiosity became my greatest teacher.</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--          NODE 2 — Problem Solver  cy=278        -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <circle cx="120" cy="278" r="22"
+    fill="#A855F7" fill-opacity="0.04"
+    stroke="#A855F7" stroke-opacity="0.07" stroke-width="0.5"/>
+  <circle cx="120" cy="278" r="12"
+    fill="#0D1117" stroke="#8B5CF6" stroke-width="1.0"
+    filter="url(#gn)"/>
+  <circle cx="120" cy="278" r="3.5" fill="#D8B4FE" fill-opacity="0.85"/>
+
+  <text x="170" y="278"
+    dominant-baseline="middle"
+    fill="#E9D5FF" fill-opacity="0.88"
+    font-size="14" font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">Problem Solver</text>
+  <text x="170" y="300"
+    fill="#C4B5FD" fill-opacity="0.56"
+    font-size="10.5" font-style="italic"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">Can this solve a real problem?</text>
+  <text x="170" y="318"
+    fill="#D8B4FE" fill-opacity="0.80"
+    font-size="11"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif">Software becomes meaningful when it helps people.</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--          NODE 3 — Systems Builder  cy=426       -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <circle cx="120" cy="426" r="22"
+    fill="#A855F7" fill-opacity="0.05"
+    stroke="#A855F7" stroke-opacity="0.08" stroke-width="0.5"/>
+  <circle cx="120" cy="426" r="12"
+    fill="#0D1117" stroke="#8B5CF6" stroke-width="1.1"
+    filter="url(#gn)"/>
+  <circle cx="120" cy="426" r="3.5" fill="#D8B4FE" fill-opacity="0.88"/>
+
+  <text x="170" y="426"
+    dominant-baseline="middle"
+    fill="#E9D5FF" fill-opacity="0.88"
+    font-size="14" font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">Systems Builder</text>
+  <text x="170" y="448"
+    fill="#C4B5FD" fill-opacity="0.56"
+    font-size="10.5" font-style="italic"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">What does the complete solution look like?</text>
+  <text x="170" y="466"
+    fill="#D8B4FE" fill-opacity="0.80"
+    font-size="11"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif">Systems matter more than features.</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--      NODE 4 — Collaborative Engineer  cy=574    -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <circle cx="120" cy="574" r="22"
+    fill="#A855F7" fill-opacity="0.05"
+    stroke="#A855F7" stroke-opacity="0.09" stroke-width="0.5"/>
+  <circle cx="120" cy="574" r="12"
+    fill="#0D1117" stroke="#8B5CF6" stroke-width="1.1"
+    filter="url(#gn)"/>
+  <circle cx="120" cy="574" r="3.5" fill="#D8B4FE" fill-opacity="0.88"/>
+
+  <text x="170" y="574"
+    dominant-baseline="middle"
+    fill="#E9D5FF" fill-opacity="0.88"
+    font-size="14" font-weight="600"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">Collaborative Engineer</text>
+  <text x="170" y="596"
+    fill="#C4B5FD" fill-opacity="0.56"
+    font-size="10.5" font-style="italic"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">How do we build something bigger than ourselves?</text>
+  <text x="170" y="614"
+    fill="#D8B4FE" fill-opacity="0.80"
+    font-size="11"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif">Great engineering is collaborative.</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--          NODE 5 — TODAY  cy=720                 -->
+  <!--     (special: larger, brighter, more glow)      -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <!-- Extended soft ambient glow -->
+  <circle cx="120" cy="720" r="65" fill="#5B21B6" fill-opacity="0.07"/>
+  <!-- Outer halo -->
+  <circle cx="120" cy="720" r="30"
+    fill="#A855F7" fill-opacity="0.06"
+    stroke="#A855F7" stroke-opacity="0.10" stroke-width="0.5"/>
+  <!-- Main ring — larger and brighter than others -->
+  <circle cx="120" cy="720" r="18"
+    fill="#0D1117" stroke="#A855F7" stroke-width="1.4"
+    filter="url(#gtoday)"/>
+  <!-- Inner decorative ring -->
+  <circle cx="120" cy="720" r="11"
+    fill="none" stroke="#A855F7" stroke-opacity="0.18" stroke-width="0.5"/>
+  <!-- Center dot — larger, fully bright -->
+  <circle cx="120" cy="720" r="5" fill="#E9D5FF"/>
+
+  <!-- Title — larger, slightly glowing -->
+  <text x="170" y="720"
+    dominant-baseline="middle"
+    fill="#E9D5FF"
+    font-size="17" font-weight="700"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.8"
+    filter="url(#gtoday-text)">Today</text>
+  <!-- Question -->
+  <text x="170" y="744"
+    fill="#C4B5FD" fill-opacity="0.56"
+    font-size="10.5" font-style="italic"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif"
+    letter-spacing="0.3">What's the next interesting problem?</text>
+  <!-- Lesson -->
+  <text x="170" y="762"
+    fill="#D8B4FE" fill-opacity="0.80"
+    font-size="11"
+    font-family="'Sora', ui-sans-serif, system-ui, sans-serif">Still learning. Still building.</text>
+
+  <!-- Continuation dots — the line and journey go on -->
+  <circle cx="120" cy="820" r="2.5" fill="#A855F7" fill-opacity="0.28"/>
+  <circle cx="120" cy="840" r="1.8" fill="#A855F7" fill-opacity="0.16"/>
+  <circle cx="120" cy="857" r="1.2" fill="#A855F7" fill-opacity="0.08"/>
+
+</svg>
