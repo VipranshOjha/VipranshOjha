@@ -111,10 +111,12 @@ I'm passionate about developing intelligent systems that solve real-world proble
 </td>
 </table>
 
-<p align="center">
-  <img src="./profile-3d-contrib/profile-gitblock.svg#gh-light-mode-only" width="85%" />
-  <img src="./profile-3d-contrib/profile-night-view.svg#gh-dark-mode-only" width="85%" />
-</p>
+<img
+    src="./assets/space-shooter.webp"
+    alt="GitHub Space Shooter"
+    width="100%"/>
+
+</div>
 
 </div>
 
