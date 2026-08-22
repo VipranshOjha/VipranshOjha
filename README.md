@@ -104,12 +104,9 @@ I'm passionate about developing intelligent systems that solve real-world proble
 
 <div align="center">
 
-<table>
-<tr>
 <td align="center">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=VipranshOjha&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=58A6FF&icon_color=58A6FF" height="180"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VipranshOjha&bg_color=0D1117&color=F59E0B&line=D97706&point=FBBF24&area=true&hide_border=true" height="350"/>
 </td>
-</table>
 
 <img
     src="./assets/space-shooter.webp"
